@@ -51,7 +51,7 @@ echo
 echo
 	echo -e $verde "SEU TEXTO É: " $txt_2
 echo
-	echo -n "-> " $txt_2 | base64
+	echo $txt_2 | base64
 fi
 }
 menu
